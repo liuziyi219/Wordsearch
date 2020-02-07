@@ -30,13 +30,7 @@ word = "ABCB", -> returnsfalse.
  
  2. You can add a round of '0' outside the grid like this, then you can ignore the problem of "index out of range". or you can set the limitation of each direction.
 
- 
- `  nboard=[[0]*(len(board[0])+2) for _ in range(len(board)+2)]`
-    `for m in range(1,len(board)+1):`
-    
-       ` for n in range(1,len(board[0])+1):`
-        
-                      ` nboard[m][n]=board[m-1][n-1]`
+
                        
     
   
